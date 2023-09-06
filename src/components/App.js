@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './data.json';
+import data from './data/data.json';
 import Scp from './components/Scp';
 import Nav from './components/Nav';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -22,8 +22,6 @@ function App() {
   );
 }
 
-function Default(){
-  <div></div>
-}
+
 
 export default App;
